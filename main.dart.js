@@ -7856,7 +7856,7 @@ ajY:function ajY(a,b){this.a=a
 this.b=b},
 aRI(){var s,r,q,p,o=J.jV(10,t.a)
 for(s=t.N,r=t.z,q=0;q<10;q=p){p=q+1
-o[q]=A.aA(["id","ACC"+p,"firstName","None","lastName","None","gender","None","dob","None","age","None","height","None","weight","None","skinColor","None","complexion","None","eyeColor","None","hairColor","None","birthMark","None","mobileNumber","None","fatherName","None","motherName","None","guardianName","None","address","None","placeOfBirth","None","photos",A.aA(["fullFace","","fullLength","","headAndShoulder","","profileLeft","","profileRight",""],s,s)],s,r)}return new A.D9(new A.a_J("https://your-backend.up.railway.app"),o,A.b([],t.H7))},
+o[q]=A.aA(["id","ACC"+p,"firstName","None","lastName","None","gender","None","dob","None","age","None","height","None","weight","None","skinColor","None","complexion","None","eyeColor","None","hairColor","None","birthMark","None","mobileNumber","None","fatherName","None","motherName","None","guardianName","None","address","None","placeOfBirth","None","photos",A.aA(["fullFace","","fullLength","","headAndShoulder","","profileLeft","","profileRight",""],s,s)],s,r)}return new A.D9(new A.a_J("https://tripo-server.onrender.com"),o,A.b([],t.H7))},
 os:function os(a){this.a=a},
 D9:function D9(a,b,c){var _=this
 _.d=a
@@ -7922,7 +7922,7 @@ if($.a8==null)A.aEV()
 $.a8.toString
 A.ahB(A.b([B.EO,B.EP],t.UW))
 A.ayA(B.R7)
-A.er("BASE URL = https://your-backend.up.railway.app")
+A.er("BASE URL = https://tripo-server.onrender.com")
 if($.a8==null)A.aEV()
 s=$.a8
 s.toString
@@ -8024,7 +8024,7 @@ aqO:function aqO(a,b){this.a=a
 this.b=b},
 aSw(){var s,r,q,p,o=J.jV(10,t.a)
 for(s=t.N,r=t.z,q=0;q<10;q=p){p=q+1
-o[q]=A.aA(["id","POL"+p,"firstName","None","lastName","None","rank","None","badgeNumber","None","department","None","joinDate","None","contactNumber","None","email","None","station","None","status","Active","photo",""],s,r)}return new A.Fg(new A.ado("https://your-backend.up.railway.app"),o,A.b([],t.H7))},
+o[q]=A.aA(["id","POL"+p,"firstName","None","lastName","None","rank","None","badgeNumber","None","department","None","joinDate","None","contactNumber","None","email","None","station","None","status","Active","photo",""],s,r)}return new A.Fg(new A.ado("https://tripo-server.onrender.com"),o,A.b([],t.H7))},
 q8:function q8(a){this.a=a},
 Fg:function Fg(a,b,c){var _=this
 _.d=a
@@ -41835,8 +41835,8 @@ ot(a,b){return this.Z9(a,b)},
 Z9(a,b){var s=0,r=A.P(t.H),q=1,p,o,n,m,l,k,j,i,h
 var $async$ot=A.K(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:A.er("App is running in RELEASE mode")
-A.er("Submitting to: https://your-backend.up.railway.app")
-o=A.aP1("POST",A.fx("https://your-backend.up.railway.app/api/accused",0,null))
+A.er("Submitting to: https://tripo-server.onrender.com")
+o=A.aP1("POST",A.fx("https://tripo-server.onrender.com/api/accused",0,null))
 o.x.O(0,a)
 k=b.geP(b),k=k.ga6(k)
 case 2:if(!k.v()){s=3
